@@ -28,7 +28,7 @@ class SessionInfo(BaseModel):
 class User(BaseModel):
     id: Optional[PyObjectId] = Field(default_factory=PyObjectId, alias="_id")
     email: str
-    password: Optional[str] = None  # None for Google users
+    password: Optional[str] = None  
     google_id: Optional[str] = None
     google_tokens: Optional[dict] = None
     name: Optional[str] = None
