@@ -54,7 +54,7 @@ source env/bin/activate
 ```
 2. **Install required packages**
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 3. **Run the FastAPI server**
 ```bash
