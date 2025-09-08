@@ -6,7 +6,7 @@ A complete **email classification system** combining **BERT embeddings** and **S
 
 ## Overview
 
-Traditional email filters often rely on simple keyword matching or Naïve Bayes classifiers. This project uses **BERT embeddings** to capture context and semantics, improving spam and phishing detection. Later, classical ML classifiers (Logistic Regression, SVM, Random Forest) are trained on these embeddings for production deployment.
+This project uses **BERT embeddings** to capture context and semantics, improving spam and phishing detection. Later, classical ML classifiers (Logistic Regression, SVM, Random Forest) are trained on these embeddings for production deployment.
 **Key Highlights:**
 
 - Fine-tuned **BERT model** for phishing detection (offline)
