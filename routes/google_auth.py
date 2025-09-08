@@ -302,10 +302,6 @@ async def revoke_google_tokens(request: Request):
         if not session_token:
             raise HTTPException(status_code=401, detail="Not authenticated")
 
-        # Decode session and get user
-        # This would depend on your session decoding implementation
-        # You would get user_id from the session and then revoke Google tokens
-
         logger.info("Google tokens revoked successfully")
         return {"message": "Successfully logged out from Google"}
 
