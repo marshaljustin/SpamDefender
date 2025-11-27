@@ -1,4 +1,4 @@
-# Spam Email Detection with BERT & Scikit-learn
+# Spam Email Detection with BERT 
 
 A complete **email classification system** combining **BERT embeddings** and **Scikit-learn classifiers**, trained on multiple datasets and deployable via **FastAPI**.  
 
